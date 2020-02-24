@@ -1,0 +1,36 @@
+#single-page {
+  background-color: rgb(231, 230, 230);
+}
+#single-page .container-background {
+  background-color: whitesmoke;
+  padding: 50px 50px;
+}
+
+#single-page .language-bash {
+  font-size: 1.1rem;
+}
+#single-page pre {
+  background-color: rgb(231, 230, 230);
+  padding: 25px 50px;
+  border-radius: 5px;
+}
+#single-page h1 {
+  padding: 1rem 0;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(231, 230, 230);
+  margin-bottom: 40px;
+}
+#single-page h2 {
+  margin: 50px 0 20px 0;
+}
+#single-page p {
+  line-height: 30px;
+  /* font-size: px; */
+  max-width: 90%;
+  font-family: "Roboto";
+}
+#single-page p code {
+  background-color: #fff98c;
+  border-radius: 3px;
+  padding: 5px;
+}

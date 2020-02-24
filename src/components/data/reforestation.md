@@ -4,7 +4,7 @@ We delivered your messages to the people who plant your trees. Watch their respo
 
 ## Defintion
 
-the action of renewing forest cover (as by natural seeding or by the artificial planting of seeds or young trees) goto [reforestation.com](https://www.vitaminair.org/)
+the action of renewing forest cover (as by natural seeding or by the artificial planting of seeds or young trees) goto [vitaminair.com](https://www.vitaminair.org/)
 
 ```bash
 pi install vitaminar
