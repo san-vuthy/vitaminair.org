@@ -1,3 +1,4 @@
+
 import React from 'react';
 import {Switch,Route, Redirect,BrowserRouter} from 'react-router-dom';
 import Home from './components/Home';
@@ -8,6 +9,9 @@ import Seeds from './components/contents/Seeds';
 import Air from './components/contents/Air';
 import About from './components/contents/About';
 import './App.css';
+import React from "react";
+// import "./App.css";
+import SinglePage from "./components/page/singlePage"
 
 
 function App() {
