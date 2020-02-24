@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import "./App.css";
+import SinglePage from "./components/page/singlePage";
+
 
 function App() {
   return (
