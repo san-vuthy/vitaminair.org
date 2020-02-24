@@ -8,7 +8,7 @@ function navbar() {
         <div>
               <Navbar className=" navbar navbar-light bg-warning">
               <div className="container">
-                <Navbar.Brand href="#home">Home</Navbar.Brand>                
+                <Navbar.Brand href="#home">VitaminAir</Navbar.Brand>                
                 <Nav className="ml-auto">                
                     <Nav.Link href="#reforestation">Reforestation</Nav.Link>
                     <Nav.Link href="#natural">Natural Farming</Nav.Link>
