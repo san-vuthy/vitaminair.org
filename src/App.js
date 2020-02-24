@@ -1,26 +1,35 @@
+
+import React from 'react';
+import {Switch,Route, Redirect,BrowserRouter} from 'react-router-dom';
+import Home from './components/Home';
+import Reforestation from './components/contents/Reforestation';
+import Natural from './components/contents/Natural';
+import Ecotourism from './components/contents/Ecotourism';
+import Seeds from './components/contents/Seeds';
+import Air from './components/contents/Air';
+import About from './components/contents/About';
+import './App.css';
 import React from "react";
 // import "./App.css";
-import SinglePage from "./components/page/singlePage";
+import SinglePage from "./components/page/singlePage"
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Home}/> 
+          <Route exact path="/reforestation" component={Reforestation}/>
+          <Route exact path="/naturalfarming" component={Natural}/>
+          <Route exact path="/ecotourism" component={Ecotourism}/>
+          <Route exact path="/seedsbomb" component={Seeds}/>
+          <Route exact path="/airwater" component={Air}/>
+          <Route exact path="/about" component={About}/>
+          <Redirect  to="/" component={Home}/>
+        </Switch>
+      </BrowserRouter>
+    </React.Fragment>
   );
 }
 
