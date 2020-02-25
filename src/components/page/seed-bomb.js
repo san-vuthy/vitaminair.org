@@ -3,11 +3,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Button } from "react-bootstrap";
 import "./singlePage.css";
 import Mardown from "react-markdown";
+import Footer from "./footer";
 
-const airwater = require("../data/airWater.md");
-const ecotourism = require("../data/ecotourism.md");
-const naturalFarming = require("../data/naturalFarming.md");
-const reforestation = require("../data/reforestation.md");
 const seedbomb = require("../data/seedBomb.md");
 
 const SinglePage = () => {
@@ -26,6 +23,7 @@ const SinglePage = () => {
           <Button variant="outline-secondary">Goto HomePage</Button>
         </div>
       </Container>
+      <Footer />
     </div>
   );
 };
