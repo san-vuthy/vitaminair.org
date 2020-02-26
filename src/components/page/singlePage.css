@@ -1,3 +1,5 @@
+/* ---------------------------------For markdown---------------------------------------- */
+
 #single-page {
   background-color: rgb(231, 230, 230);
 }
@@ -33,4 +35,46 @@
   background-color: #fff98c;
   border-radius: 3px;
   padding: 5px;
+}
+
+/* ------------------------------------- For Footer --------------------------------------- */
+
+#single-page .footer {
+  background-color: #152f4f;
+  color: white;
+}
+#single-page .mt-5,
+#single-page .my-5 {
+  margin-top: 3rem !important;
+}
+#single-pag.p-0 {
+  padding: 0 !important;
+}
+#single-pag.m-0 {
+  margin: 0 !important;
+}
+#single-page .pb-5,
+#single-page .py-5 {
+  padding-bottom: 3rem !important;
+}
+
+#single-page .footer .about-company i {
+  font-size: 25px;
+}
+
+#single-page .footer .cooperation ul {
+  list-style-type: none !important;
+}
+#single-page .footer .cooperation li a:hover {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+#single-page .footer .cooperation li a {
+  color: white;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+#single-page .footer .copyright p {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
