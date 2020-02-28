@@ -3,9 +3,7 @@ import React from 'react';
 import {Switch,Route, Redirect,BrowserRouter} from 'react-router-dom';
 import Home from './components/Home';
 import './App.css';
-import React from "react";
 // import "./App.css";
-import SinglePage from "./components/page/singlePage"
 
 
 function App() {

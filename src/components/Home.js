@@ -6,18 +6,19 @@ import data from "./data/index.json";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
-function home() {
+export default function home () {
+  
   const DisplayData = () => {
     return data.map((res, index) => {
       if (index % 2 === 0) {
         return (
-          <div className="cover1">  
+          <div className={res.className}>  
             <div className="container">
               <div className="certain">
                 <div className="cover-description">
                   <h1 className="header">{res.title}</h1>
-                  <h4>{res.subTitle}</h4>
-                  <p className="description">{res.desc}</p>
+                  <h4 className="subtitle">{res.subTitle}</h4>
+                  <p className="description">{(res.desc).substring(0,325)}...</p>
                   <Link to={res.link}>
                     <Button className="readmore" variant="warning">
                       Read more
@@ -49,8 +50,8 @@ function home() {
                 </div>
                 <div className="cover-description">
                   <h1 className="header">{res.title}</h1>
-                  <h4>{res.subTitle}</h4>
-                  <p className="description">{res.desc}</p>
+                  <h4 className="subtitle">{res.subTitle}</h4>
+                  <p className="description">{(res.desc).substring(0,325)}...</p>
                   <Link to={res.link}>
                     <Button className="readmore" variant="warning">
                       Read more
@@ -75,4 +76,4 @@ function home() {
   );
 }
 
-export default home;
+

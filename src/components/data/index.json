@@ -1,44 +1,49 @@
-[
-  {
+[{
     "title": "Reforestation",
     "subTitle": "Rebuild the planet",
-    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something… Grood stands for you.",
+    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something. Grood stands for you.",
     "logo": "/img/tree.png",
-    "link": "/test1"
+    "link": "/test1",
+    "className": "reforestation"
   },
   {
     "title": "Natural Farming",
     "subTitle": "Green Framing",
-    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something… Grood stands for you.",
+    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something. Grood stands for you.",
     "logo": "/img/farm.png",
-    "link": "/test2"
+    "link": "/test2",
+    "className":"naturalfarming"
   },
   {
     "title": "Ecotourism",
     "subTitle": "Travel",
-    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something… Grood stands for you.",
+    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something. Grood stands for you.",
     "logo": "/img/cyclist.png",
-    "link": "/test3"
+    "link": "/test3",
+    "className":"ecotourism"
   },
   {
     "title": "Seeds Bomb",
     "subTitle": "Throw out the seeds",
-    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something… Grood stands for you.",
+    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something. Grood stands for you.",
     "logo": "/img/seeds.png",
-    "link": "/test4"
+    "link": "/test4",
+    "className":"seedsbomb"
   },
   {
     "title": "Air Water",
     "subTitle": "Air from the water",
-    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something… Grood stands for you.",
+    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something. Grood stands for you.",
     "logo": "/img/humidity.png",
-    "link": "/test4"
+    "link": "/test4",
+    "className":"airwater"
   },
   {
     "title": "About",
     "subTitle": "Our missions",
-    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something… Grood stands for you.",
+    "desc": "Grood is Cambodia’s best brand of electric bikes because we put people first. The most important part of every Grood isn’t some high-tech gadget or fancy bicycle component – it’s the person riding it. Producing great eBikes is just the beginning. To be truly great, a company has to stand for something. Grood stands for you.",
     "logo": "/img/natural.png",
-    "link": "/test4"
+    "link": "/test4",
+    "className":"about"
   }
 ]
