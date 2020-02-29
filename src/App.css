@@ -1,6 +1,6 @@
 /* navbar */
 
- .ml-auto {
+.ml-auto {
   font-size: 17px;
 }
 #v-logo {
@@ -8,12 +8,12 @@
   font-size: 30px;
   color: black;
 }
-#sticky-nav{
+#sticky-nav {
   position: sticky;
   top: 0;
 }
 
-/* Banner */  
+/* Banner */
 
 .text-center {
   margin-top: 4%;
@@ -63,7 +63,7 @@
 
 .cover1 {
   height: 45rem;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
 }
 
 .header {
@@ -120,105 +120,612 @@
   text-align: end;
 }
 
-
-
-
 /* responsive */
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+  /* navbar */
   .navbar {
     padding: 0;
     height: 40px;
   }
-  #v-logo{
+  #v-logo {
     display: none;
     padding: 0;
     margin: 0;
   }
-  .ml-auto{
+  .ml-auto {
     font-size: 9px;
-    margin-right:12px;
+    margin-right: 12px;
     padding: 0;
   }
-  .div.container{
+  .div.container {
     text-align: center;
     justify-content: center;
   }
-  .reforest{
+  .reforest {
     padding: 0;
     margin-right: 4px;
   }
 
-  .farming{
+  .farming {
     margin-right: 4px;
   }
-  .eco{
+  .eco {
     margin-right: 4px;
   }
-  .seedsbomb{
+  .seedsbomb {
     margin-right: 4px;
   }
-  .air{
+  .air {
     margin-right: 4px;
   }
-  .navbar-expand .navbar-nav .nav-link{
+  .navbar-expand .navbar-nav .nav-link {
     padding: 0;
   }
 
   /* banner */
 
-  #header-banner{
-    font-size: 25px;
+  #header-banner {
+    font-size: 40px;
   }
-  #banner-text{
+  #banner-text {
     font-size: 18px;
   }
-  #banner-background{
+  #banner-background {
     height: 22rem;
   }
-  #banner{
+  #banner {
     height: 20rem;
   }
 
-  /* contents */
-  .header{
-    font-size: 25px;
+  /* contents-right pic */
+  .header {
+    font-size: 30px;
   }
-  .subtitle{
-    font-size: 15px;
+  .subtitle {
+    font-size: 20px;
   }
-  .description{
-    font-size: 13px;
+  .description {
+    font-size: 18px;
   }
-  .readmore{
-    margin-left: 70px;
-  }
-  .img-right{
+  .img-right {
     display: none;
   }
-  .rounded.float-right{
+  .rounded.float-right {
     padding: 0;
     margin: 0;
+  }
+  .cover1 {
+    padding: 0;
+    margin: 0%;
+    height: 28rem;
+  }
+  .readmore {
+    max-width: 35%;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 30%;
+  }
+
+  /* contents-left contents */
+  .img-left {
+    display: none;
+  }
+  .cover2 {
+    padding: 0;
+    margin: 0;
+    height: 28rem;
   }
 
   /* footer */
 
-  .sw-logo{
-    width: 50%;
+  .sw-logo {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .logo {
+    display: none;
+  }
+  .copy-right {
+    font-size: 15px;
+    text-align: center;
+    justify-self: center;
+  }
+  .footer {
+    margin-top: 45px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+  /* navbar */
+  .navbar {
+    padding: 0;
+    height: 40px;
+  }
+  #v-logo.nav-link {
+    font-size: 20px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .ml-auto {
+    font-size: 13px;
+    margin-right: 12px;
+    padding: 0;
+  }
+  .div.container {
+    text-align: center;
+    justify-content: center;
+  }
+  .reforest {
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  .farming {
+    margin-right: 10px;
+  }
+  .eco {
+    margin-right: 10px;
+  }
+  .seedsbomb {
+    margin-right: 10px;
+  }
+  .air {
+    margin-right: 10px;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  /* banner */
+
+  #header-banner {
+    font-size: 50px;
+  }
+  #banner-text {
+    font-size: 25px;
+  }
+  #banner-background {
+    height: 22rem;
+  }
+  #banner {
+    height: 20rem;
+  }
+
+  /* contents-right pic */
+  .header {
+    font-size: 35px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .img-right {
+    margin-top: 90%;
+    margin-left: 30%;
+    padding: 0;
+  }
+  .rounded.float-right {
+    padding: 0;
+    margin: 0;
+  }
+  .cover1 {
+    padding: 0;
+    margin: 0%;
+    height: 33rem;
+  }
+  .readmore {
+    max-width: 40%;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 30%;
+  }
+
+  /* contents-left contents */
+  .img-left {
+    margin-top: 90%;
+  }
+  .cover2 {
+    padding: 0;
+    margin: 0;
+    height: 33rem;
+  }
+
+  /* footer */
+
+  .sw-logo {
+    width: 40%;
+    margin-left: 60%;
+    /* margin-top: 30px; */
+  }
+  .logo {
+    /* display: none; */
+    font-size: 50px;
+    margin-top: 50px;
+  }
+  #cover-logo {
+    margin-top: 0;
+    padding: 0;
+  }
+  #cover-copyright {
+    padding: 0;
+    margin: 0;
+  }
+  .copy-right {
+    font-size: 15px;
+  }
+  .footer {
+    margin-top: 120px;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  /* navbar */
+  .navbar {
+    padding: 0;
+    height: 50px;
+  }
+  #v-logo.nav-link {
+    font-size: 30px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .ml-auto {
+    font-size: 15px;
+    margin-right: 12px;
+    padding: 0;
+  }
+  .div.container {
+    text-align: center;
+    justify-content: center;
+  }
+  .reforest {
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  .farming {
+    margin-right: 10px;
+  }
+  .eco {
+    margin-right: 10px;
+  }
+  .seedsbomb {
+    margin-right: 10px;
+  }
+  .air {
+    margin-right: 10px;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  /* banner */
+
+  #header-banner {
+    font-size: 55px;
+  }
+  #banner-text {
+    font-size: 25px;
+  }
+  #banner-background {
+    height: 28rem;
+  }
+  #banner {
+    height: 24rem;
+  }
+
+  /* contents-right pic */
+  .header {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 27px;
+  }
+  .description {
+    font-size: 21px;
+  }
+  .img-right {
+    margin-top: 60%;
+    margin-left: 30%;
+    padding: 0;
+  }
+  .rounded.float-right {
+    padding: 0;
+    margin: 0;
+  }
+  .cover1 {
+    padding: 0;
+    margin: 0%;
+    height: 33rem;
+  }
+  .readmore {
+    max-width: 30%;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 30%;
+  }
+
+  /* contents-left contents */
+  .img-left {
+    margin-top: 60%;
+  }
+  .cover2 {
+    padding: 0;
+    margin: 0;
+    height: 33rem;
+  }
+
+  /* footer */
+
+  .sw-logo {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  #cover-copyright {
+    margin-left: 20%;
+  }
+  #cover-logo {
+    font-size: 60px;
+    margin-left: 30px;
+  }
+  .copy-right {
+    font-size: 15px;
+  }
+  .footer {
+    margin-top: 15%;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  /* navbar */
+  .navbar {
+    padding: 0;
+    height: 60px;
+  }
+  #v-logo.nav-link {
+    font-size: 30px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .ml-auto {
+    font-size: 20px;
+    margin-right: 12px;
+    padding: 0;
+  }
+  .div.container {
+    text-align: center;
+    justify-content: center;
+  }
+  .reforest {
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  .farming {
+    margin-right: 10px;
+  }
+  .eco {
+    margin-right: 10px;
+  }
+  .seedsbomb {
+    margin-right: 10px;
+  }
+  .air {
+    margin-right: 10px;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  /* banner */
+
+  #header-banner {
+    font-size: 65px;
+  }
+  #banner-text {
+    font-size: 27px;
+  }
+  #banner-background {
+    height: 28rem;
+  }
+  #banner {
+    height: 24rem;
+  }
+
+  /* contents-right pic */
+  .header {
+    font-size: 50px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 25px;
+  }
+  .img-right {
+    margin-top: 45%;
+    margin-left: 15%;
+    padding: 0;
+  }
+  .rounded.float-right {
+    padding: 0;
+    margin: 0;
+  }
+  .cover1 {
+    padding: 0;
+    margin: 0%;
+    height: 33rem;
+  }
+  .readmore {
+    max-width: 30%;
+    height: 37px;
+    font-size: 16px;
+    margin-left: 30%;
+  }
+
+  /* contents-left contents */
+  .img-left {
+    margin-top: 45%;
+  }
+  .cover2 {
+    padding: 0;
+    margin: 0;
+    height: 33rem;
+  }
+
+  /* footer */
+
+  .sw-logo {
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  #cover-copyright {
+    margin-left: 20%;
+  }
+  #cover-logo {
+    margin-left: 70px;
+  }
+  .logo {
+    margin-left: 40px;
+    font-size: 65px;
+  }
+  .copy-right {
+    font-size: 19px;
+  }
+  .footer {
+    margin-top: 15%;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  /* navbar */
+  .navbar {
+    padding: 0;
+    height: 70px;
+  }
+  #v-logo.nav-link {
+    font-size: 40px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .ml-auto {
+    font-size: 25px;
+    margin-right: 12px;
+    padding: 0;
+  }
+  .div.container {
+    text-align: center;
+    justify-content: center;
+  }
+  .reforest {
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  .farming {
+    margin-right: 10px;
+  }
+  .eco {
+    margin-right: 10px;
+  }
+  .seedsbomb {
+    margin-right: 10px;
+  }
+  .air {
+    margin-right: 10px;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  /* banner */
+
+  #header-banner {
+    font-size: 75px;
+  }
+  #banner-text {
+    font-size: 33px;
+  }
+  #banner-background {
+    height: 28rem;
+  }
+  #banner {
+    height: 24rem;
+  }
+
+  /* contents-right pic */
+  .header {
+    font-size: 60px;
+  }
+  .subtitle {
+    font-size: 35px;
+  }
+  .description {
+    font-size: 28px;
+  }
+  .img-right {
+    margin-top: 45%;
+    margin-left: 15%;
+    padding: 0;
+  }
+  .rounded.float-right {
+    padding: 0;
+    margin: 0;
+  }
+  .cover1 {
+    padding: 0;
+    margin: 0%;
+    height: 40rem;
+  }
+  .readmore {
+    max-width: 30%;
+    height: 37px;
+    font-size: 16px;
+    margin-left: 30%;
+  }
+
+  /* contents-left contents */
+  .img-left {
+    margin-top: 45%;
+  }
+  .cover2 {
+    padding: 0;
+    margin: 0;
+    height: 40rem;
+  }
+
+  /* footer */
+
+  .sw-logo {
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  #cover-copyright {
+    margin-left: 20%;
+  }
+  #cover-logo {
+    margin-left: 70px;
+  }
+  .logo {
+    margin-left: 40px;
+    font-size: 65px;
+  }
+  .copy-right {
+    font-size: 19px;
+  }
+  .footer {
+    margin-top: 15%;
+  }
+}

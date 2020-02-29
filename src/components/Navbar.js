@@ -1,21 +1,18 @@
-import React,{useState} from "react";
+import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
 import {
   Link,
-  Events,
-  animateScroll as scroll,
-  scroller
 } from "react-scroll";
 
 function NavBar () {
 
-  const [navbarToggle, setNavbarToggle] = useState(false);
+  // const [navbarToggle, setNavbarToggle] = useState(false);
 
-  const handleNavbarToggle = () => {
-    setNavbarToggle(!navbarToggle);
-  };
+  // const handleNavbarToggle = () => {
+  //   setNavbarToggle(!navbarToggle);
+  // };
 
     return (
       <React.Fragment>
@@ -45,7 +42,7 @@ function NavBar () {
                     offset={0}
                     duration={500}
                   >                   
-                    Natural-Farming
+                    NaturalFarming
                   </Link>
                 </Nav.Link>
                 <Nav.Link className="eco">
@@ -67,7 +64,7 @@ function NavBar () {
                     offset={0}
                     duration={500}
                   >
-                    Seeds-Bomb
+                    SeedsBomb
                   </Link>
                 </Nav.Link>
                 <Nav.Link className="air">
@@ -78,7 +75,7 @@ function NavBar () {
                     offset={0}
                     duration={500}
                   >
-                    Air-Water
+                    AirWater
                   </Link>
                 </Nav.Link>
                 <Nav.Link className="about">

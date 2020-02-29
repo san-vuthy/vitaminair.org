@@ -9,10 +9,10 @@ function Footer() {
             <footer className="footer">
                 <div className="container text-white">  
                     <Row>
-                        <Col md={4}>
+                        <Col  id="cover-logo" md={4}>
                             <h1 className="logo">VitaminAir</h1>
                         </Col>
-                        <Col md={{ span: 4, offset: 4 }}>
+                        <Col id="cover-copyright" md={{ span: 4, offset: 4 }}>
                             <img className="sw-logo" alt="sw-logo" src="./img/sw-green.png"/>
                             <div className="copy-right">
                                 <p>Designed by VitaminAir | SmallWorld.</p>
