@@ -10,7 +10,7 @@ export default function home() {
   const DisplayData = () => {
     return data.map((res, index) => {
       console.log(res);
-      
+
       if (index % 2 === 0) {
         return (
           <div className="cover1">
@@ -19,13 +19,13 @@ export default function home() {
                 <div className="certain">
                   <div className="cover-description">
                     <h1 className="header">{res.title}</h1>
-                    <h4 className="subtitle">{res.subTitle}</h4>
+                    {/* <h4 className="subtitle">{res.subTitle}</h4> */}
                     <p className="description">
                       {res.desc.substring(0, 325)}...
                     </p>
                     <Link to={res.link}>
                       <Button className="readmore" variant="warning">
-                        Read more >>
+                        Read more
                       </Button>
                     </Link>
                   </div>
@@ -42,7 +42,6 @@ export default function home() {
           </div>
         );
       } else {
-
         return (
           <div className={`cover2 ${res.className}`}>
             <div className="">
@@ -57,13 +56,13 @@ export default function home() {
                   </div>
                   <div className="cover-description">
                     <h1 className="header">{res.title}</h1>
-                    <h4 className="subtitle">{res.subTitle}</h4>
+                    {/* <h4 className="subtitle">{res.subTitle}</h4> */}
                     <p className="description">
                       {res.desc.substring(0, 325)}...
                     </p>
                     <Link to={res.link}>
                       <Button className="readmore" variant="warning">
-                        Read more >>
+                        Read more
                       </Button>
                     </Link>
                   </div>

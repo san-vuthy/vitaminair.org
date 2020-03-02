@@ -5,7 +5,7 @@
 }
 
 /* navbar */
-.navbar-light{
+.navbar-light {
   background-color: #153b44;
 }
 #v-logo {
@@ -22,7 +22,6 @@
   margin-right: 10px;
   font-size: 18px;
 }
-
 
 /* Banner */
 
@@ -77,7 +76,9 @@
 }
 
 .header {
-  font-size: 55px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #153b44;
 }
 
 .description {
@@ -128,11 +129,10 @@
   text-align: end;
 }
 
-
 /* responsive */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   /* navbar */
   .navbar {
     padding: 0;
@@ -183,10 +183,6 @@
   .img-right {
     display: none;
   }
-  .rounded.float-right {
-    padding: 0;
-    margin: 0;
-  }
   .cover1 {
     padding: 0;
     margin: 0%;
@@ -196,7 +192,6 @@
     max-width: 35%;
     height: 30px;
     font-size: 12px;
-    margin-left: 30%;
   }
 
   /* contents-left contents */
@@ -287,10 +282,6 @@
     margin-left: 20%;
     padding: 0;
   }
-  .rounded.float-right {
-    padding: 0;
-    margin: 0;
-  }
   .cover1 {
     padding: 0;
     margin: 0%;
@@ -300,7 +291,6 @@
     max-width: 40%;
     height: 30px;
     font-size: 12px;
-    margin-left: 30%;
   }
 
   /* contents-left contents */
@@ -400,10 +390,6 @@
     margin-left: 30%;
     padding: 0;
   }
-  .rounded.float-right {
-    padding: 0;
-    margin: 0;
-  }
   .cover1 {
     padding: 0;
     margin: 0%;
@@ -413,7 +399,6 @@
     max-width: 30%;
     height: 30px;
     font-size: 12px;
-    margin-left: 30%;
   }
 
   /* contents-left contents */
@@ -433,9 +418,9 @@
     margin-left: 20px;
     margin-top: 50px;
   }
-  .logo{
+  .logo {
     display: inline;
-   }
+  }
   #cover-copyright {
     margin-left: 20%;
   }
@@ -483,7 +468,9 @@
   /* banner */
 
   #header-banner {
-    font-size: 65px;
+    font-size: 60px;
+    text-transform: ;
+    font-weight: 800;
   }
   #banner-text {
     font-size: 27px;
@@ -510,10 +497,6 @@
     margin-left: 15%;
     padding: 0;
   }
-  .rounded.float-right {
-    padding: 0;
-    margin: 0;
-  }
   .cover1 {
     padding: 0;
     margin: 0%;
@@ -523,7 +506,6 @@
     max-width: 30%;
     height: 37px;
     font-size: 16px;
-    margin-left: 30%;
   }
 
   /* contents-left contents */
@@ -591,7 +573,7 @@
   /* banner */
 
   #header-banner {
-    font-size: 75px;
+    font-size: 60px;
   }
   #banner-text {
     font-size: 33px;
@@ -605,22 +587,18 @@
 
   /* contents-right pic */
   .header {
-    font-size: 60px;
+    font-size: 45px;
   }
   .subtitle {
     font-size: 35px;
   }
   .description {
-    font-size: 28px;
+    font-size: 24px;
   }
   .img-right {
     margin-top: 45%;
     margin-left: 15%;
     padding: 0;
-  }
-  .rounded.float-right {
-    padding: 0;
-    margin: 0;
   }
   .cover1 {
     padding: 0;
@@ -631,7 +609,6 @@
     max-width: 30%;
     height: 37px;
     font-size: 16px;
-    margin-left: 30%;
   }
 
   /* contents-left contents */
