@@ -5,12 +5,12 @@ import Home from './components/Home';
 import './App.css';
 // import "./App.css";
 
-
 function App() {
   return (
     <React.Fragment>
       <BrowserRouter>
         <Switch>
+    <SinglePage />
           <Route exact path="/" component={Home}/> 
           {/* <Route exact path="/reforestation" component={Reforestation}/>
           <Route exact path="/natural-farming" component={Natural}/>

@@ -1,9 +1,10 @@
 # Seed Bomb
-We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.
+
+We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant,Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.
 
 ## Defintion
 
-the action of renewing forest cover (as by natural seeding or by the artificial planting of seeds or young trees) goto [natural.com](https://www.vitaminair.org/)
+the action of renewing forest cover (as by natural seeding or by the artificial planting of seeds or young trees) goto [vitarminair.com](https://www.vitaminair.org/)
 
 ```bash
 pi install vitaminar
