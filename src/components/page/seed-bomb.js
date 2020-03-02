@@ -3,12 +3,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Button } from "react-bootstrap";
 import "./singlePage.css";
 import Mardown from "react-markdown";
-import Footer from "./Footer";
+import Footer from "./footer";
 
-const airwater = require("../data/airWater.md");
-const ecotourism = require("../data/ecotourism.md");
-const naturalFarming = require("../data/naturalFarming.md");
-const reforestation = require("../data/reforestation.md");
 const seedbomb = require("../data/seedBomb.md");
 
 const SinglePage = () => {
@@ -21,14 +17,12 @@ const SinglePage = () => {
   });
   return (
     <div id="single-page">
-      <div className="ptb-5 detail ">
-        <Container className="container-background">
-          <Mardown>{post}</Mardown>
-          <div className="text-right">
-            <Button variant="outline-success">Goto HomePage</Button>
-          </div>
-        </Container>
-      </div>
+      <Container className="container-background">
+        <Mardown>{post}</Mardown>
+        <div className="text-right">
+          <Button variant="outline-secondary">Goto HomePage</Button>
+        </div>
+      </Container>
       <Footer />
     </div>
   );
