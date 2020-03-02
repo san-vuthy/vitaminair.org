@@ -7,24 +7,16 @@ import {
 } from "react-scroll";
 
 function NavBar () {
-
-  // const [navbarToggle, setNavbarToggle] = useState(false);
-
-  // const handleNavbarToggle = () => {
-  //   setNavbarToggle(!navbarToggle);
-  // };
-
     return (
       <React.Fragment>
         <div id="sticky-nav">
-          <Navbar className="navbar navbar-light bg-warning">
+          <Navbar className="navbar navbar-light text-white">
             <div className="container">
               <Nav.Link id="v-logo">
-                <Link>VitaminAir</Link>
+                <Link className="text-white">VitaminAir</Link>
               </Nav.Link>
               <Nav className="ml-auto">
-                <Nav.Link className="reforest">
-                  <Link                    
+                  <Link className="nav"                   
                     to="reforestation"
                     spy={true}
                     smooth={true}
@@ -33,8 +25,6 @@ function NavBar () {
                   >
                     Reforestation
                   </Link>
-                </Nav.Link>
-                <Nav.Link className="farming">
                   <Link                    
                     to="naturalfarming"
                     spy={true}
@@ -44,8 +34,6 @@ function NavBar () {
                   >                   
                     NaturalFarming
                   </Link>
-                </Nav.Link>
-                <Nav.Link className="eco">
                   <Link                    
                     to="ecotourism"
                     spy={true}
@@ -55,8 +43,6 @@ function NavBar () {
                   >
                     Ecotourism
                   </Link>
-                </Nav.Link>
-                <Nav.Link className="seedsbomb">
                   <Link                    
                     to="seedsbomb"
                     spy={true}
@@ -66,8 +52,6 @@ function NavBar () {
                   >
                     SeedsBomb
                   </Link>
-                </Nav.Link>
-                <Nav.Link className="air">
                   <Link                    
                     to="airwater"
                     spy={true}
@@ -77,8 +61,6 @@ function NavBar () {
                   >
                     AirWater
                   </Link>
-                </Nav.Link>
-                <Nav.Link className="about">
                   <Link                   
                     to="about"
                     spy={true}
@@ -88,7 +70,6 @@ function NavBar () {
                   >
                     About
                   </Link>
-                </Nav.Link>
               </Nav>
             </div>
           </Navbar>

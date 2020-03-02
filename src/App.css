@@ -1,10 +1,14 @@
-/* navbar */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&display=swap");
 
-.ml-auto {
-  font-size: 17px;
+* {
+  font-family: "Source Sans Pro" !important;
+}
+
+/* navbar */
+.navbar-light{
+  background-color: #153b44;
 }
 #v-logo {
-  font-family: "Times New Roman", Times, serif;
   font-size: 30px;
   color: black;
 }
@@ -12,6 +16,13 @@
   position: sticky;
   top: 0;
 }
+
+.navbar-nav a {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
 
 /* Banner */
 
@@ -25,8 +36,8 @@
 }
 
 #banner-background {
-  /* background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%); */
-  background-image: linear-gradient(to top, #0fd850 0%, #f6d51a 100%);
+  background-image: linear-gradient(to top, #0fd850 0%, #daeeac 100%);
+  /* background-image: linear-gradient(to top, #0fd850 0%, #f6d51a 100%); */
   height: 35rem;
 }
 
@@ -36,7 +47,6 @@
 }
 
 #banner-text {
-  font-family: "Times New Roman", Times, serif;
   font-size: 30px;
 }
 
@@ -67,7 +77,6 @@
 }
 
 .header {
-  font-family: "Times New Roman", Times, serif;
   font-size: 55px;
 }
 
@@ -106,7 +115,6 @@
 
 .col-md-4 {
   margin-top: 2%;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .sw-logo {
@@ -120,10 +128,11 @@
   text-align: end;
 }
 
+
 /* responsive */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:600px) {
   /* navbar */
   .navbar {
     padding: 0;
@@ -134,34 +143,16 @@
     padding: 0;
     margin: 0;
   }
-  .ml-auto {
+  .navbar-nav a {
+    cursor: pointer;
+    margin-right: 10px;
     font-size: 9px;
-    margin-right: 12px;
     padding: 0;
+    overflow: hidden;
   }
   .div.container {
     text-align: center;
     justify-content: center;
-  }
-  .reforest {
-    padding: 0;
-    margin-right: 4px;
-  }
-
-  .farming {
-    margin-right: 4px;
-  }
-  .eco {
-    margin-right: 4px;
-  }
-  .seedsbomb {
-    margin-right: 4px;
-  }
-  .air {
-    margin-right: 4px;
-  }
-  .navbar-expand .navbar-nav .nav-link {
-    padding: 0;
   }
 
   /* banner */
@@ -199,7 +190,7 @@
   .cover1 {
     padding: 0;
     margin: 0%;
-    height: 28rem;
+    height: 23rem;
   }
   .readmore {
     max-width: 35%;
@@ -215,14 +206,14 @@
   .cover2 {
     padding: 0;
     margin: 0;
-    height: 28rem;
+    height: 23rem;
   }
 
   /* footer */
 
   .sw-logo {
-    width: 80%;
-    margin-left: 30px;
+    width: 50%;
+    margin-left: 25%;
     margin-top: 30px;
   }
   .logo {
@@ -247,34 +238,20 @@
   }
   #v-logo.nav-link {
     font-size: 20px;
+    margin-left: 15px;
     padding: 0;
     margin-right: 20px;
   }
-  .ml-auto {
-    font-size: 13px;
+  .navbar-nav a {
+    cursor: pointer;
     margin-right: 12px;
+    font-size: 12px;
     padding: 0;
+    overflow: hidden;
   }
   .div.container {
     text-align: center;
     justify-content: center;
-  }
-  .reforest {
-    padding: 0;
-    margin-right: 10px;
-  }
-
-  .farming {
-    margin-right: 10px;
-  }
-  .eco {
-    margin-right: 10px;
-  }
-  .seedsbomb {
-    margin-right: 10px;
-  }
-  .air {
-    margin-right: 10px;
   }
   .navbar-expand .navbar-nav .nav-link {
     padding: 0;
@@ -307,7 +284,7 @@
   }
   .img-right {
     margin-top: 90%;
-    margin-left: 30%;
+    margin-left: 20%;
     padding: 0;
   }
   .rounded.float-right {
@@ -340,12 +317,12 @@
 
   .sw-logo {
     width: 40%;
-    margin-left: 60%;
-    /* margin-top: 30px; */
+    margin-left: 30%;
+    margin-top: 60px;
   }
   .logo {
-    /* display: none; */
-    font-size: 50px;
+    display: none;
+    font-size: 40px;
     margin-top: 50px;
   }
   #cover-logo {
@@ -358,6 +335,8 @@
   }
   .copy-right {
     font-size: 15px;
+    text-align: center;
+    justify-content: center;
   }
   .footer {
     margin-top: 120px;
@@ -369,38 +348,23 @@
   /* navbar */
   .navbar {
     padding: 0;
-    height: 50px;
+    height: 60px;
   }
   #v-logo.nav-link {
-    font-size: 30px;
+    font-size: 25px;
     padding: 0;
-    margin-right: 20px;
+    margin-right: 45px;
   }
-  .ml-auto {
-    font-size: 15px;
+  .navbar-nav a {
+    cursor: pointer;
     margin-right: 12px;
+    font-size: 12px;
     padding: 0;
+    overflow: hidden;
   }
   .div.container {
     text-align: center;
     justify-content: center;
-  }
-  .reforest {
-    padding: 0;
-    margin-right: 10px;
-  }
-
-  .farming {
-    margin-right: 10px;
-  }
-  .eco {
-    margin-right: 10px;
-  }
-  .seedsbomb {
-    margin-right: 10px;
-  }
-  .air {
-    margin-right: 10px;
   }
   .navbar-expand .navbar-nav .nav-link {
     padding: 0;
@@ -469,15 +433,20 @@
     margin-left: 20px;
     margin-top: 50px;
   }
+  .logo{
+    display: inline;
+   }
   #cover-copyright {
     margin-left: 20%;
   }
   #cover-logo {
     font-size: 60px;
     margin-left: 30px;
+    margin-top: 55px;
   }
   .copy-right {
     font-size: 15px;
+    margin-right: 15px;
   }
   .footer {
     margin-top: 15%;
@@ -496,31 +465,16 @@
     padding: 0;
     margin-right: 20px;
   }
-  .ml-auto {
-    font-size: 20px;
+  .navbar-nav a {
+    cursor: pointer;
     margin-right: 12px;
+    font-size: 19px;
     padding: 0;
+    overflow: hidden;
   }
   .div.container {
     text-align: center;
     justify-content: center;
-  }
-  .reforest {
-    padding: 0;
-    margin-right: 10px;
-  }
-
-  .farming {
-    margin-right: 10px;
-  }
-  .eco {
-    margin-right: 10px;
-  }
-  .seedsbomb {
-    margin-right: 10px;
-  }
-  .air {
-    margin-right: 10px;
   }
   .navbar-expand .navbar-nav .nav-link {
     padding: 0;
@@ -619,31 +573,16 @@
     padding: 0;
     margin-right: 20px;
   }
-  .ml-auto {
-    font-size: 25px;
+  .navbar-nav a {
+    cursor: pointer;
     margin-right: 12px;
+    font-size: 22px;
     padding: 0;
+    overflow: hidden;
   }
   .div.container {
     text-align: center;
     justify-content: center;
-  }
-  .reforest {
-    padding: 0;
-    margin-right: 10px;
-  }
-
-  .farming {
-    margin-right: 10px;
-  }
-  .eco {
-    margin-right: 10px;
-  }
-  .seedsbomb {
-    margin-right: 10px;
-  }
-  .air {
-    margin-right: 10px;
   }
   .navbar-expand .navbar-nav .nav-link {
     padding: 0;

@@ -6,20 +6,23 @@ import data from "./data/index.json";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
-export default function home () {
-  
+export default function home() {
   const DisplayData = () => {
     return data.map((res, index) => {
+      console.log(res);
+      
       if (index % 2 === 0) {
         return (
           <div className="cover1">
-            <div className={res.className}>  
+            <div className={res.className}>
               <div className="container">
                 <div className="certain">
                   <div className="cover-description">
                     <h1 className="header">{res.title}</h1>
                     <h4 className="subtitle">{res.subTitle}</h4>
-                    <p className="description">{(res.desc).substring(0,325)}...</p>
+                    <p className="description">
+                      {res.desc.substring(0, 325)}...
+                    </p>
                     <Link to={res.link}>
                       <Button className="readmore" variant="warning">
                         Read more >>
@@ -29,7 +32,7 @@ export default function home () {
                   <div className="rounded float-right">
                     <img
                       className="img-right"
-                      alt={res.title} 
+                      alt={res.title}
                       src={`http://localhost:3000${res.logo}`}
                     />
                   </div>
@@ -39,9 +42,10 @@ export default function home () {
           </div>
         );
       } else {
+
         return (
-          <div className="cover2">
-            <div className={res.className}> 
+          <div className={`cover2 ${res.className}`}>
+            <div className="">
               <div className="container">
                 <div className="certain">
                   <div className="rounded float-left">
@@ -54,7 +58,9 @@ export default function home () {
                   <div className="cover-description">
                     <h1 className="header">{res.title}</h1>
                     <h4 className="subtitle">{res.subTitle}</h4>
-                    <p className="description">{(res.desc).substring(0,325)}...</p>
+                    <p className="description">
+                      {res.desc.substring(0, 325)}...
+                    </p>
                     <Link to={res.link}>
                       <Button className="readmore" variant="warning">
                         Read more >>
@@ -79,5 +85,3 @@ export default function home () {
     </div>
   );
 }
-
-
