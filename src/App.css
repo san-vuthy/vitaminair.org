@@ -1,137 +1,670 @@
-.body{
-  /* background-color: rgb(60, 167, 60); */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&display=swap");
+
+* {
+  font-family: "Source Sans Pro" !important;
 }
+
+/* navbar */
+.navbar-light{
+  background-color: #153b44;
+}
+#v-logo {
+  font-size: 30px;
+  color: black;
+}
+#sticky-nav {
+  position: sticky;
+  top: 0;
+}
+
+.navbar-nav a {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
 
 /* Banner */
 
-.text-center{
-  margin-top: 5%;
-}
-#banner{
-  border-bottom-right-radius: 50rem 50rem ;
-}
-#banner-background{
-  background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+.text-center {
+  margin-top: 4%;
 }
 
+#banner {
+  border-bottom-right-radius: 50rem 50rem;
+  height: 30rem;
+}
 
-/* reforestation */
+#banner-background {
+  background-image: linear-gradient(to top, #0fd850 0%, #daeeac 100%);
+  /* background-image: linear-gradient(to top, #0fd850 0%, #f6d51a 100%); */
+  height: 35rem;
+}
 
-.reforest{
+#header-banner {
+  font-family: "Fjalla One";
+  font-size: 95px;
+}
+
+#banner-text {
+  font-size: 30px;
+}
+
+/* Image right*/
+
+.certain {
   display: flex;
   flex-direction: row;
 }
-.rebuild{
-  margin:0;
-  margin-top: 20%;
+
+.cover-description {
+  margin: 0;
+  margin-top: 18%;
   padding: 0;
-  display:block;
+  display: block;
+  width: 35rem;
 }
-.img-right{
-  margin-left: 25%;
+
+.img-right {
+  margin-left: 10%;
   margin-top: 25%;
+  width: 80%;
 }
 
-.reforest-cover{
-  background-color:#f5f5f5;
+.cover1 {
   height: 45rem;
+  /* background-color: #f0f0f0; */
 }
 
-/* natural */
+.header {
+  font-size: 55px;
+}
 
-.nature{
-  display: flex;
-  flex-direction: row; 
+.description {
+  font-size: 20px;
 }
-.natural{
-  margin:0;
-  margin-top: 20%;
-  padding: 0;
-  display:block;
+
+.readmore {
+  width: 10rem;
 }
-.img-left{
-  margin-right: 25%;
+
+/* Image left */
+
+.img-left {
+  margin-right: 10%;
   margin-top: 25%;
+  width: 80%;
 }
 
-.natural-cover{
-  height: 45rem;
-}
-/* ecotourism */
-
-.eco{
-  display: flex;
-  flex-direction: row;
-}
-.ecotourism{
-  margin:0;
-  margin-top: 20%;
-  padding: 0;
-  display:block;
-}
-
-.eco-cover{
-  background-color:#f5f5f5;
-  height: 45rem;
-}
-
-
-/* seeds bomb */
-
-.seeds{
-  display: flex;
-  flex-direction: row; 
-}
-.seeds-bomb{
-  margin:0;
-  margin-top: 20%;
-  padding: 0;
-  display:block;
-}
-.seeds-cover{
-  height: 45rem;
-}
-/* air water */
-
-.air{
-  display: flex;
-  flex-direction: row;
-}
-.air-water{
-  margin:0;
-  margin-top: 20%;
-  padding: 0;
-  display:block;
-}
-.air-cover{
-  background-color:#f5f5f5;
-  height: 45rem;
-}
-/* about */
-
-.about{
-  display: flex;
-  flex-direction: row; 
-}
-.about-text{
-  margin:0;
-  margin-top: 20%;
-  padding: 0; 
-  display:block;
-}
-.about-cover{
+.cover2 {
   height: 45rem;
 }
 
 /* footer */
 
-.footer{
-  background-image: linear-gradient(to top, #bef763 0%, #04b34d 100%);
+.footer {
+  /* background-color: #3a3d44; */
+  background-color: #153b44;
   height: 20rem;
 }
-#logo{
-  margin-left: 80%;
+
+.logo {
+  font-size: 65px;
+  margin-top: 10%;
 }
-.col-sm-4{
+
+.col-md-4 {
+  margin-top: 2%;
+}
+
+.sw-logo {
+  width: 22rem;
+}
+
+.copy-right {
+  font-size: 20px;
+  color: white;
   margin-top: 5%;
+  text-align: end;
+}
+
+
+/* responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+  /* navbar */
+  .navbar {
+    padding: 0;
+    height: 40px;
+  }
+  #v-logo {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-nav a {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 9px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .div.container {
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* banner */
+
+  #header-banner {
+    font-size: 40px;
+  }
+  #banner-text {
+    font-size: 18px;
+  }
+  #banner-background {
+    height: 22rem;
+  }
+  #banner {
+    height: 20rem;
+  }
+
+  /* contents-right pic */
+  .header {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .img-right {
+    display: none;
+  }
+  .rounded.float-right {
+    padding: 0;
+    margin: 0;
+  }
+  .cover1 {
+    padding: 0;
+    margin: 0%;
+    height: 23rem;
+  }
+  .readmore {
+    max-width: 35%;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 30%;
+  }
+
+  /* contents-left contents */
+  .img-left {
+    display: none;
+  }
+  .cover2 {
+    padding: 0;
+    margin: 0;
+    height: 23rem;
+  }
+
+  /* footer */
+
+  .sw-logo {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+  }
+  .logo {
+    display: none;
+  }
+  .copy-right {
+    font-size: 15px;
+    text-align: center;
+    justify-self: center;
+  }
+  .footer {
+    margin-top: 45px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* navbar */
+  .navbar {
+    padding: 0;
+    height: 40px;
+  }
+  #v-logo.nav-link {
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .navbar-nav a {
+    cursor: pointer;
+    margin-right: 12px;
+    font-size: 12px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .div.container {
+    text-align: center;
+    justify-content: center;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  /* banner */
+
+  #header-banner {
+    font-size: 50px;
+  }
+  #banner-text {
+    font-size: 25px;
+  }
+  #banner-background {
+    height: 22rem;
+  }
+  #banner {
+    height: 20rem;
+  }
+
+  /* contents-right pic */
+  .header {
+    font-size: 35px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .img-right {
+    margin-top: 90%;
+    margin-left: 20%;
+    padding: 0;
+  }
+  .rounded.float-right {
+    padding: 0;
+    margin: 0;
+  }
+  .cover1 {
+    padding: 0;
+    margin: 0%;
+    height: 33rem;
+  }
+  .readmore {
+    max-width: 40%;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 30%;
+  }
+
+  /* contents-left contents */
+  .img-left {
+    margin-top: 90%;
+  }
+  .cover2 {
+    padding: 0;
+    margin: 0;
+    height: 33rem;
+  }
+
+  /* footer */
+
+  .sw-logo {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 60px;
+  }
+  .logo {
+    display: none;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  #cover-logo {
+    margin-top: 0;
+    padding: 0;
+  }
+  #cover-copyright {
+    padding: 0;
+    margin: 0;
+  }
+  .copy-right {
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer {
+    margin-top: 120px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* navbar */
+  .navbar {
+    padding: 0;
+    height: 60px;
+  }
+  #v-logo.nav-link {
+    font-size: 25px;
+    padding: 0;
+    margin-right: 45px;
+  }
+  .navbar-nav a {
+    cursor: pointer;
+    margin-right: 12px;
+    font-size: 12px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .div.container {
+    text-align: center;
+    justify-content: center;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  /* banner */
+
+  #header-banner {
+    font-size: 55px;
+  }
+  #banner-text {
+    font-size: 25px;
+  }
+  #banner-background {
+    height: 28rem;
+  }
+  #banner {
+    height: 24rem;
+  }
+
+  /* contents-right pic */
+  .header {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 27px;
+  }
+  .description {
+    font-size: 21px;
+  }
+  .img-right {
+    margin-top: 60%;
+    margin-left: 30%;
+    padding: 0;
+  }
+  .rounded.float-right {
+    padding: 0;
+    margin: 0;
+  }
+  .cover1 {
+    padding: 0;
+    margin: 0%;
+    height: 33rem;
+  }
+  .readmore {
+    max-width: 30%;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 30%;
+  }
+
+  /* contents-left contents */
+  .img-left {
+    margin-top: 60%;
+  }
+  .cover2 {
+    padding: 0;
+    margin: 0;
+    height: 33rem;
+  }
+
+  /* footer */
+
+  .sw-logo {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .logo{
+    display: inline;
+   }
+  #cover-copyright {
+    margin-left: 20%;
+  }
+  #cover-logo {
+    font-size: 60px;
+    margin-left: 30px;
+    margin-top: 55px;
+  }
+  .copy-right {
+    font-size: 15px;
+    margin-right: 15px;
+  }
+  .footer {
+    margin-top: 15%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* navbar */
+  .navbar {
+    padding: 0;
+    height: 60px;
+  }
+  #v-logo.nav-link {
+    font-size: 30px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .navbar-nav a {
+    cursor: pointer;
+    margin-right: 12px;
+    font-size: 19px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .div.container {
+    text-align: center;
+    justify-content: center;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  /* banner */
+
+  #header-banner {
+    font-size: 65px;
+  }
+  #banner-text {
+    font-size: 27px;
+  }
+  #banner-background {
+    height: 28rem;
+  }
+  #banner {
+    height: 24rem;
+  }
+
+  /* contents-right pic */
+  .header {
+    font-size: 50px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 25px;
+  }
+  .img-right {
+    margin-top: 45%;
+    margin-left: 15%;
+    padding: 0;
+  }
+  .rounded.float-right {
+    padding: 0;
+    margin: 0;
+  }
+  .cover1 {
+    padding: 0;
+    margin: 0%;
+    height: 33rem;
+  }
+  .readmore {
+    max-width: 30%;
+    height: 37px;
+    font-size: 16px;
+    margin-left: 30%;
+  }
+
+  /* contents-left contents */
+  .img-left {
+    margin-top: 45%;
+  }
+  .cover2 {
+    padding: 0;
+    margin: 0;
+    height: 33rem;
+  }
+
+  /* footer */
+
+  .sw-logo {
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  #cover-copyright {
+    margin-left: 20%;
+  }
+  #cover-logo {
+    margin-left: 70px;
+  }
+  .logo {
+    margin-left: 40px;
+    font-size: 65px;
+  }
+  .copy-right {
+    font-size: 19px;
+  }
+  .footer {
+    margin-top: 15%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* navbar */
+  .navbar {
+    padding: 0;
+    height: 70px;
+  }
+  #v-logo.nav-link {
+    font-size: 40px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .navbar-nav a {
+    cursor: pointer;
+    margin-right: 12px;
+    font-size: 22px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .div.container {
+    text-align: center;
+    justify-content: center;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  /* banner */
+
+  #header-banner {
+    font-size: 75px;
+  }
+  #banner-text {
+    font-size: 33px;
+  }
+  #banner-background {
+    height: 28rem;
+  }
+  #banner {
+    height: 24rem;
+  }
+
+  /* contents-right pic */
+  .header {
+    font-size: 60px;
+  }
+  .subtitle {
+    font-size: 35px;
+  }
+  .description {
+    font-size: 28px;
+  }
+  .img-right {
+    margin-top: 45%;
+    margin-left: 15%;
+    padding: 0;
+  }
+  .rounded.float-right {
+    padding: 0;
+    margin: 0;
+  }
+  .cover1 {
+    padding: 0;
+    margin: 0%;
+    height: 40rem;
+  }
+  .readmore {
+    max-width: 30%;
+    height: 37px;
+    font-size: 16px;
+    margin-left: 30%;
+  }
+
+  /* contents-left contents */
+  .img-left {
+    margin-top: 45%;
+  }
+  .cover2 {
+    padding: 0;
+    margin: 0;
+    height: 40rem;
+  }
+
+  /* footer */
+
+  .sw-logo {
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  #cover-copyright {
+    margin-left: 20%;
+  }
+  #cover-logo {
+    margin-left: 70px;
+  }
+  .logo {
+    margin-left: 40px;
+    font-size: 65px;
+  }
+  .copy-right {
+    font-size: 19px;
+  }
+  .footer {
+    margin-top: 15%;
+  }
 }
