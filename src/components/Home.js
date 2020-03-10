@@ -5,21 +5,22 @@ import Footer from "./Footer";
 import data from "./data/index.json";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 export default function home() {
   const DisplayData = () => {
     return data.map((res, index) => {
       console.log(res);
-      
+
       if (index % 2 === 0) {
         return (
-          <div className="cover1">
-            <div className={res.className}>
-              <div className="container">
-                <div className="certain">
-                  <div className="cover-description">
+          <div className={`cover1 ${res.className}`}>
+            <div className="container">
+              <Row className="row">
+                <Col sm={8}>
+                  <div className="cover-description-right">
                     <h1 className="header">{res.title}</h1>
-                    <h4 className="subtitle">{res.subTitle}</h4>
                     <p className="description">
                       {res.desc.substring(0, 325)}...
                     </p>
@@ -29,35 +30,33 @@ export default function home() {
                       </Button>
                     </Link>
                   </div>
-                  <div className="rounded float-right">
-                    <img
-                      className="img-right"
-                      alt={res.title}
-                      src={`http://localhost:3000${res.logo}`}
-                    />
-                  </div>
-                </div>
-              </div>
+                </Col>
+                <Col sm={4}>
+                  <img
+                    className="img-right"
+                    alt={res.title}
+                    src={`http://localhost:3000${res.logo}`}
+                  />
+                </Col>
+              </Row>
             </div>
           </div>
         );
       } else {
-
         return (
           <div className={`cover2 ${res.className}`}>
-            <div className="">
-              <div className="container">
-                <div className="certain">
-                  <div className="rounded float-left">
-                    <img
-                      className="img-left"
-                      alt={res.title}
-                      src={`http://localhost:3000${res.logo}`}
-                    />
-                  </div>
-                  <div className="cover-description">
+            <div className="container">
+              <Row id="column-reverse" className="row">
+                <Col sm={4}>  
+                  <img
+                    className="img-left"
+                    alt={res.title}
+                    src={`http://localhost:3000${res.logo}`}
+                  />
+                </Col>
+                <Col sm={8}>
+                  <div className="cover-description-left">
                     <h1 className="header">{res.title}</h1>
-                    <h4 className="subtitle">{res.subTitle}</h4>
                     <p className="description">
                       {res.desc.substring(0, 325)}...
                     </p>
@@ -67,8 +66,8 @@ export default function home() {
                       </Button>
                     </Link>
                   </div>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </div>
           </div>
         );
