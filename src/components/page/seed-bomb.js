@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 import { Container, Button } from "react-bootstrap";
 import "./singlePage.css";
 import Mardown from "react-markdown";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 const seedbomb = require("../data/seedBomb.md");
 
-const SinglePage = () => {
+const SeedBomb = () => {
   const [post, setPost] = useState("");
   useEffect(() => {
     fetch(seedbomb)
@@ -28,4 +28,4 @@ const SinglePage = () => {
   );
 };
 
-export default SinglePage;
+export default SeedBomb;

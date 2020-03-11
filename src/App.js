@@ -1,11 +1,19 @@
 import React from "react";
 // import "./App.css";
-import SinglePage from "./components/page/singlePage";
+import Ecotourism from "./components/page/ecotourism";
+import Airwater from "./components/page/airwater";
+import NaturalFarming from "./components/page/natural-farming";
+import Reforestation from "./components/page/reforestration";
+import SeedBomb from "./components/page/seed-bomb";
 
 function App() {
   return (
     <div className="App">
-      <SinglePage />
+      {/* <Ecotourism /> */}
+      <Airwater />
+      {/* <NaturalFarming /> */}
+      {/* <Reforestation /> */}
+      {/* <SeedBomb /> */}
     </div>
   );
 }

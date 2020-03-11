@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 import { Container, Button } from "react-bootstrap";
 import "./singlePage.css";
 import Mardown from "react-markdown";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 const naturalfarming = require("../data/naturalFarming.md");
 
-const SinglePage = () => {
+const NaturalFarming = () => {
   const [post, setPost] = useState("");
 
   useEffect(() => {
@@ -18,14 +18,17 @@ const SinglePage = () => {
   });
   return (
     <div id="single-page">
-      <Container className="container-background">
-        <Mardown>{post}</Mardown>
-        <div className="text-right">
-          <Button variant="outline-secondary">Goto HomePage</Button>
-        </div>
-      </Container>
+      <div className="ptb-5 detail ">
+        <Container className="container-background">
+          <Mardown>{post}</Mardown>
+          <div className="text-right">
+            <Button variant="outline-success">Goto HomePage</Button>
+          </div>
+        </Container>
+      </div>
+      <Footer />
     </div>
   );
 };
 
-export default SinglePage;
+export default NaturalFarming;

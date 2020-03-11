@@ -29,7 +29,6 @@
 }
 #single-page .detail p {
   line-height: 30px;
-  /* font-size: px; */
   max-width: 90%;
   font-family: "Roboto";
 }
@@ -116,4 +115,102 @@
 
 #single-page .footer .copyright p {
   border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/*---------------------------------- Respondsive ------------------------------------*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+  #single-page .ptb-5,
+  #single-page .pyx-5 {
+    padding: 3px 5px !important;
+  }
+  #single-page .detail .container-background {
+    background-color: whitesmoke;
+    padding: 10px 10px;
+  }
+  #single-page .detail .language-bash {
+    font-size: 15px;
+    color: #107a8b;
+  }
+  #single-page .detail pre {
+    background-color: rgb(231, 230, 230);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  #single-page .detail h1 {
+    font-size: 40px;
+    border-bottom: 3px solid rgb(231, 230, 230);
+    margin-bottom: 20px;
+  }
+  #single-page .detail h2 {
+    margin: 2px 0 2px 0;
+    font-size: 32px;
+  }
+  #single-page .detail h3 {
+    margin: 2px 0 2px 0;
+    font-size: 20px;
+  }
+  #single-page .detail p {
+    line-height: 22px;
+    max-width: 90%;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  #single-page .detail p code {
+    background-color: #fff98c;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  #single-page .footer li a,
+  #single-page .footer p {
+    font-size: 17px;
+  }
+  #single-page .footer h3 {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+  #single-page .ptb-5,
+  #single-page .pyx-5 {
+    padding: 3px 5px !important;
+  }
+  #single-page .detail .container-background {
+    background-color: whitesmoke;
+    padding: 10px 10px;
+  }
+}
+
+/* ----------- iPad mini air and pro ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and(orientation:landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #single-page .detail pre {
+    background-color: rgb(231, 230, 230);
+    padding: 10px 20px;
+  }
+  #single-page .ptb-5,
+  #single-page .pyx-5 {
+    padding: 1rem 0 !important;
+  }
+  #single-page .detail h1 {
+    font-size: 40px;
+    border-bottom: 3px solid rgb(231, 230, 230);
+    margin-bottom: 20px;
+    color: rebeccapurple;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #single-page .detail pre {
+    background-color: rgb(231, 230, 230);
+    padding: 10px 20px;
+  }
+  #single-page .ptb-5,
+  #single-page .pyx-5 {
+    padding: 1rem 0 !important;
+  }
+  #single-page .detail h1 {
+    font-size: 40px;
+    border-bottom: 3px solid rgb(231, 230, 230);
+    margin-bottom: 20px;
+    color: rebeccapurple;
+  }
 }
