@@ -31,7 +31,7 @@
 }
 
 #banner-background {
-  background-image: linear-gradient(to top, #0fd850 0%, #daeeac 100%);
+  background-image: linear-gradient(to top, #0fd850 0%, #01380a 100%);
   height: 35rem;
 }
 
@@ -124,8 +124,6 @@
 /* responsive */
 
 
-
-
 /* Small devices (portrait and landscape phones, 300px and up) */
 
 /* ======iPhone5======= */
@@ -149,7 +147,6 @@
   }
   
   .navbar-nav a {
-  cursor: pointer;
   font-size: 9px;
   padding: 0;
   overflow: hidden;
@@ -255,8 +252,6 @@
   
   .logo {
   display: none;
-  font-size: 40px;
-  margin-top: 50px;
   }
   
   #cover-logo {
@@ -293,7 +288,7 @@ and (orientation: landscape) {
   overflow: hidden;
   }
   #v-logo {
-  font-size: 12px !important;
+  font-size: 11px !important;
   }
 
   /* contents-right pic */
@@ -335,10 +330,7 @@ and (orientation: landscape) {
 
 }
 
-
-
-
-/* ======iPhone6 to 8======= */
+/* ======iPhone6 to 8 and Galaxy s ======= */
 
 
 /* portrait */
@@ -350,7 +342,6 @@ and (orientation: landscape) {
 
   /* navbar */
     .navbar-nav a {
-      cursor: pointer;
       font-size: 11px !important;
       padding: 0;
       overflow: hidden;
@@ -383,15 +374,15 @@ and (orientation: landscape) {
 
     /* navbar */
    .navbar-nav a {
-      cursor: pointer;
-      font-size: 14px !important;
+      font-size: 13px !important;
       padding: 0;
       overflow: hidden;
     }
     
     #v-logo {
-      font-size: 19px;
+      font-size: 15px !important;
       margin-right: 3%;
+      /* display: none; */
     }
    /* banner */
   #header-banner {
@@ -457,7 +448,7 @@ and (orientation: landscape) {
   
   .img-left{
   width: 120%;
-  margin-left:20%;
+  margin-left:-10%;
   margin-top: 100%;
 }
 .cover-description-left {
@@ -468,15 +459,13 @@ and (orientation: landscape) {
 }
    /* footer */
 .sw-logo {
-  width: 60%;
-  margin-left: 20%;
+  width: 50% !important;
+  margin-left: 25% !important;
   margin-top: 60px;
   }
   
   .logo {
   display: none;
-  font-size: 40px;
-  margin-top: 50px;
   }
   
   #cover-logo {
@@ -519,7 +508,7 @@ and (orientation: landscape) {
 /* Landscape */
 @media only screen 
   and (min-device-width: 414px) 
-  and (max-device-width: 812px) 
+  and (max-device-width:  736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
 
@@ -530,9 +519,9 @@ and (orientation: landscape) {
   }
   
   #v-logo {
-    font-size: 25px;
+    font-size: 23px;
     margin-right: 7%;
-    margin-left: -8%;
+    margin-left: -8% !important;
   }
    /* banner */
   #header-banner {
@@ -575,9 +564,9 @@ and (orientation: landscape) {
   }
 
   .img-right{
-   width:120%;
+   width:120% !important;
    margin-left: 10%;
-   margin-top: 100%;
+   margin-top: 100% !important;
   }  
 /* contents-left contents */
   .cover2 {
@@ -585,9 +574,9 @@ and (orientation: landscape) {
   }
 
   .img-left{
-    width: 120%;
+    width: 120% !important;
     margin-left:20%;
-    margin-top: 100%;
+    margin-top: 100% !important;
   }
   .cover-description-left {
     margin-top:20%;
@@ -604,8 +593,6 @@ and (orientation: landscape) {
   
   .logo {
   display: none;
-  font-size: 40px;
-  margin-top: 50px;
   }
   
   #cover-logo {
@@ -632,9 +619,23 @@ and (orientation: landscape) {
 /* ----------- iPhone X ----------- */
 /* Landscape */
 @media only screen 
+  and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+
+
+  /* navbar */
+  .navbar-nav a {
+    font-size: 15px !important;
+    overflow: hidden;
+  }
+  
+  #v-logo {
+    font-size: 23px;
+    margin-right: 7%;
+    margin-left: -2%;
+  }
 
    /* banner */
   #header-banner {
@@ -677,10 +678,103 @@ and (orientation: landscape) {
   }
 
   .img-right{
-   width:130%;
-   margin-left: 10%;
-   margin-top: 100%;
+   width:110%;
+   margin-left: 1%;
+   margin-top: 70%;
   }  
+
+
+/* contents-left contents */
+.cover2 {
+  height: 30rem;
+}
+
+.img-left{
+  width: 110%;
+  margin-left:10%;
+  margin-top: 70%;
+}
+.cover-description-left {
+  margin-top:20%;
+  margin-left: 13%;
+  padding:5%;
+  width: 100%;
+}
+
+ /* footer */
+ .sw-logo {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 60px;
+  }
+  
+  .logo {
+  display: none;
+  }
+  
+  #cover-logo {
+  margin-top: 0;
+  padding: 0;
+  }
+  
+  #cover-copyright {
+  padding: 0;
+  margin: 0;
+  }
+  
+  .copy-right {
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  }
+  .footer {
+  margin-top: 50px;
+  }
+    
 
 }
 
+/* ----------- Google Pixel XL ----------- */
+
+/* Landscape */
+@media screen 
+  and (device-width: 411px) 
+  and (device-height: 731px) 
+  and (-webkit-device-pixel-ratio: ៣) 
+  and (orientation: landscape) {
+
+   /* navbar */
+  .navbar-nav a {
+    font-size: 15px !important;
+    overflow: hidden;
+  }
+       /* banner */
+  #header-banner {
+    margin-top: 7%;
+    font-size: 50px;
+  }
+  #banner-text {
+    font-size: 25px;
+  }
+  #banner-background {
+    height: 25rem;
+  }
+  #banner {
+    height: 22rem;
+  }
+  #v-logo {
+    font-size: 23px !important;
+    margin-right: 7% !important;
+    margin-left: -2% !important;
+  }
+
+ /* banner */
+  #header-banner {
+    margin-top: 7%;
+    font-size: 50px;
+  }
+  #banner-text {
+    font-size: 25px !important;
+  }
+
+}
