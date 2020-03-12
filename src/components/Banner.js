@@ -1,4 +1,5 @@
 import React from "react";
+import BannerData from "./data/banner.json";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 
@@ -10,12 +11,9 @@ function Banner() {
             <Container className="text-center">
                 <h1 id="header-banner">VitaminAir</h1> 
                 <div id="banner-text">
-                    <p>
-                        This is the project that rebuild the forest & keep it for the next generation.
-                    </p>
-                    <p>
-                        Longer life of the nature is the way we do for the next generation of humans beings.
-                    </p>
+                    {BannerData.map((detail, index) => {
+                        return <p>{detail.p1}<tr>{detail.p2}</tr></p>
+                    })}
                 </div>
             </Container>
         </Jumbotron>
