@@ -28,9 +28,10 @@
   margin: 50px 0 20px 0;
 }
 #single-page .detail p {
+  font-size: 20px;
   line-height: 30px;
-  max-width: 90%;
-  font-family: "Roboto";
+  max-width: 100% !important;
+  font-family: "Roboto" !important;
 }
 #single-page .detail p code {
   background-color: #fff98c;
@@ -59,7 +60,7 @@
 }
 #single-page .ptb-5,
 #single-page .pyx-5 {
-  padding: 3rem 0 !important;
+  padding: 3rem 0;
 }
 #single-page .p-0 {
   padding: 0 !important;
@@ -115,21 +116,25 @@
 
 #single-page .footer .copyright p {
   border-top: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 0;
 }
 
 /*---------------------------------- Respondsive ------------------------------------*/
+
+/* ----------- phone screen ----------- */
+/* ----------- portrait ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
   #single-page .ptb-5,
   #single-page .pyx-5 {
-    padding: 3px 5px !important;
+    padding: 0px 0px !important;
   }
   #single-page .detail .container-background {
-    background-color: whitesmoke;
-    padding: 10px 10px;
+    margin: 0;
+    max-width: 100%;
+    padding: 20px 20px;
   }
   #single-page .detail .language-bash {
-    font-size: 15px;
-    color: #107a8b;
+    font-size: 16px;
   }
   #single-page .detail pre {
     background-color: rgb(231, 230, 230);
@@ -138,79 +143,68 @@
   }
   #single-page .detail h1 {
     font-size: 40px;
-    border-bottom: 3px solid rgb(231, 230, 230);
-    margin-bottom: 20px;
-  }
-  #single-page .detail h2 {
-    margin: 2px 0 2px 0;
-    font-size: 32px;
-  }
-  #single-page .detail h3 {
-    margin: 2px 0 2px 0;
-    font-size: 20px;
-  }
-  #single-page .detail p {
-    line-height: 22px;
-    max-width: 90%;
-    font-family: "Roboto";
-    font-size: 16px;
-  }
-  #single-page .detail p code {
-    background-color: #fff98c;
-    border-radius: 3px;
-    padding: 5px;
   }
   #single-page .footer li a,
   #single-page .footer p {
-    font-size: 17px;
+    text-align: end;
   }
-  #single-page .footer h3 {
-    margin-top: 15px;
-    text-align: center;
+  #single-page .footer li {
+    text-align: end;
+  }
+
+  #single-page .footer .text-center {
+    text-align: end !important;
   }
 }
+/* ----------- landscape ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
   #single-page .ptb-5,
   #single-page .pyx-5 {
-    padding: 3px 5px !important;
+    padding: 0px 0px !important;
   }
   #single-page .detail .container-background {
     background-color: whitesmoke;
     padding: 10px 10px;
+    margin: 0;
+    max-width: 100%;
   }
 }
 
 /* ----------- iPad mini air and pro ----------- */
-
+/* ----------- landscape ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and(orientation:landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  #single-page .detail pre {
-    background-color: rgb(231, 230, 230);
-    padding: 10px 20px;
-  }
   #single-page .ptb-5,
   #single-page .pyx-5 {
-    padding: 1rem 0 !important;
+    padding: 0;
+    margin: 0 !important;
   }
-  #single-page .detail h1 {
-    font-size: 40px;
-    border-bottom: 3px solid rgb(231, 230, 230);
-    margin-bottom: 20px;
-    color: rebeccapurple;
+  #single-page .detail .container-background {
+    padding: 20px 20px;
+    max-width: 100%;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  #single-page .detail pre {
-    background-color: rgb(231, 230, 230);
-    padding: 10px 20px;
-  }
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and(orientation:landscape) and (-webkit-min-device-pixel-ratio: 1) {
   #single-page .ptb-5,
   #single-page .pyx-5 {
-    padding: 1rem 0 !important;
+    padding: 0px 0px !important;
   }
-  #single-page .detail h1 {
-    font-size: 40px;
-    border-bottom: 3px solid rgb(231, 230, 230);
-    margin-bottom: 20px;
-    color: rebeccapurple;
+  #single-page .detail .container-background {
+    padding: 20px 20px;
+    max-width: 100%;
+    margin: 0px;
+  }
+}
+/* ----------- portrait ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #single-page .ptb-5,
+  #single-page .pyx-5 {
+    padding: 0px 0px !important;
+    margin: 0px;
+  }
+  #single-page .detail .container-background {
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    margin: 0;
+    max-width: 100%;
   }
 }
