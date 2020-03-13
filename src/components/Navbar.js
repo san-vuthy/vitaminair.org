@@ -1,10 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-
-import {
-  Link,
-} from "react-scroll";
+import {Link} from "react-scroll";
 
 function NavBar () {
     return (
@@ -12,7 +9,7 @@ function NavBar () {
         <Navbar className="navbar text-white" fixed="top" >
           <div className="container">
             <Nav.Link id="v-logo">
-              <Link className="text-white">VitaminAir</Link>
+              <Link className="text-white" to="/">VitaminAir</Link>
             </Nav.Link>
             <Nav className="ml-auto">
                 <Link className="nav"                   
