@@ -7,8 +7,8 @@ import { GoLocation } from "react-icons/go";
 
 function Footer() {
   return (
-    <div className="footer">
-      <div className="pt-5 pb-5 footer">
+    <div className="foot">
+      <div className="pt-5 pb-5 foot">
         <div className="container">
           <div className="row">
             {/* About Company */}

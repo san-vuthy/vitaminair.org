@@ -2,7 +2,7 @@
 
 We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.We delivered your messages to the people who plant your trees. Watch their response, and make the connection.
 
-## Defintion
+## Definition
 
 the action of renewing forest cover (as by natural seeding or by the artificial planting of seeds or young trees) goto [vitaminair.com](https://www.vitaminair.org/)
 
