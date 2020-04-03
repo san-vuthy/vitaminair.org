@@ -10,7 +10,7 @@ export default function home() {
   const DisplayData = () => {
     return data.map((res, index) => {
       console.log(res);
-      
+
       if (index % 2 === 0) {
         return (
           <div className="cover1">
@@ -42,7 +42,6 @@ export default function home() {
           </div>
         );
       } else {
-
         return (
           <div className={`cover2 ${res.className}`}>
             <div className="">

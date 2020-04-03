@@ -4,7 +4,7 @@
     "subTitle": "Rebuild the planet",
     "desc": "For given the life for the next generation we have to think about the tree. The way we are living right now need to pay attention about it. If we live without the nature mean that we live without take a breath. There is only one way to rebuild our planet is to make our Earth become the green planet. To take care about it is start from you. ",
     "logo": "/img/tree.png",
-    "link": "/test1",
+    "link": "/src/components/page/reforestration.js",
     "className": "reforestation"
   },
   {
