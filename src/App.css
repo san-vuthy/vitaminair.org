@@ -275,9 +275,10 @@
   .navbar-nav a {
     padding: 0 !important;
     overflow: hidden;
+    font-size: 12px;
   }
   #v-logo {
-    font-size: 11px !important;
+    display: none;
   }
 
   /* contents-right pic */
@@ -423,7 +424,7 @@
 
   .img-left {
     width: 120%;
-    margin-left: -10%;
+    margin-left: -20%;
     margin-top: 100%;
   }
   .cover-description-left {
@@ -924,23 +925,5 @@
     width: 90%;
     margin-left: 20%;
     margin-top: 50%;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
-  /* contents-right pic */
-
-  .img-right {
-    width: 90%;
-    margin-left: 1%;
-    margin-top: 40% !important;
-  }
-
-  /* contents-left contents */
-
-  .img-left {
-    width: 90%;
-    margin-left: 20%;
-    margin-top: 40% !important;
   }
 }
