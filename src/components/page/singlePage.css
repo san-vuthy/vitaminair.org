@@ -79,9 +79,10 @@
   font-size: 25px;
 }
 
-#single-page .foot .cooperation ul {
+#single-page .foot ul {
   list-style-type: none !important;
 }
+
 #single-page .foot .cooperation li a:hover {
   color: #2cb978;
   text-decoration: none;
@@ -95,6 +96,10 @@
 
 #single-page .foot .svg-mr-2 {
   margin-right: 20px;
+}
+#single-page .foot .svg-social {
+  text-align: -webkit-right;
+  margin: -66px 23px;
 }
 
 #single-page .foot .svg-social a svg,
@@ -157,6 +162,9 @@
   #single-page .foot .text-center {
     text-align: end !important;
   }
+  #single-page .foot .svg-social {
+    margin: 0px 0;
+  }
 }
 /* ----------- landscape ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
@@ -169,6 +177,9 @@
     padding: 10px 10px;
     margin: 0;
     max-width: 100%;
+  }
+  #single-page .foot .svg-social {
+    margin: 0px 0;
   }
 }
 
@@ -184,6 +195,9 @@
     padding: 20px 20px;
     max-width: 100%;
   }
+  #single-page .foot .svg-social {
+    margin: 0 0;
+  }
 }
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and(orientation:landscape) and (-webkit-min-device-pixel-ratio: 1) {
   #single-page .ptb-5,
@@ -194,6 +208,9 @@
     padding: 20px 20px;
     max-width: 100%;
     margin: 0px;
+  }
+  #single-page .foot .svg-social {
+    margin: 0px 0;
   }
 }
 /* ----------- portrait ----------- */
@@ -208,5 +225,9 @@
     padding: 20px 20px;
     margin: 0;
     max-width: 100%;
+  }
+  #single-page .foot .svg-social {
+    text-align: center;
+    margin: 0 0;
   }
 }

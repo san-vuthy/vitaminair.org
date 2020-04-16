@@ -14,10 +14,11 @@ function Footer() {
             {/* About Company */}
             <div className="col-lg-5 col-sx-12 about-company">
               <h1>Vitamin Air</h1>
-              <div className="text-center svg-social">
+              <div className=" svg-social">
                 <a href="https://www.facebook.com/">
                   <FaFacebookSquare />
                 </a>
+
                 <a href="https://www.instagram.com/">
                   <FaInstagram />
                 </a>
